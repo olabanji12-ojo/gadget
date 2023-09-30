@@ -1,0 +1,18 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Redmi_details
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{redmi.spec}}</h2>
+    <p>manufacturer: {{redmi.manufacturer}}</p>
+    <p>spec: {{redmi.spec}}</p>
+    <p>price: {{redmi.price}}</p>
+    <p>battery_capacity: {{redmi.battery_capacity}}</p>
+    <p>storage: {{redmi.storage}}</p>
+    <p>camera: {{redmi.camera}}</p>
+</div>
+
+{% endblock %}

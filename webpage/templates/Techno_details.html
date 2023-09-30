@@ -1,0 +1,18 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Techno_details
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{techno.spec}}</h2>
+    <p>manufacturer: {{techno.manufacturer}}</p>
+    <p>spec: {{techno.spec}}</p>
+    <p>price: {{techno.price}}</p>
+    <p>battery_capacity: {{techno.battery_capacity}}</p>
+    <p>storage: {{techno.storage}}</p>
+    <p>camera: {{techno.camera}}</p>
+</div>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Hpdetails
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{hp.spec}}</h2>
+    <p>manufacturer: {{hp.manufacturer}}</p>
+    <p>spec: {{hp.spec}}</p>
+    <p>price: {{hp.price}}</p>
+    <p>processor: {{hp.processor}}</p>
+    <p>storage: {{hp.storage}}</p>
+</div>
+
+{% endblock %}

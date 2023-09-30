@@ -1,0 +1,17 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Dell_details
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{dell.spec}}</h2>
+    <p>manufacturer: {{dell.manufacturer}}</p>
+    <p>spec: {{dell.spec}}</p>
+    <p>price: {{dell.price}}</p>
+    <p>processor: {{dell.processor}}</p>
+    <p>storage: {{dell.storage}}</p>
+</div>
+
+{% endblock %}

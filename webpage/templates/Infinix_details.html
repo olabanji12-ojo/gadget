@@ -1,0 +1,18 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Infinix_details
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{infinix.spec}}</h2>
+    <p>manufacturer: {{infinix.manufacturer}}</p>
+    <p>spec: {{infinix.spec}}</p>
+    <p>price: {{infinix.price}}</p>
+    <p>battery_capacity: {{infinix.battery_capacity}}</p>
+    <p>storage: {{infinix.storage}}</p>
+    <p>camera: {{infinix.camera}}</p>
+</div>
+
+{% endblock %}

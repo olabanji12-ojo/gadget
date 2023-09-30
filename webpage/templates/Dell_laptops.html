@@ -1,0 +1,19 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Dell-laptops
+{% endblock %}
+
+{% block content %}
+<div class="products">
+   <h2>Check out our Dell Laptops:</h2>
+
+   <ul>
+       {% for x in dell %}
+           <li><h3><a href="Dell_details/{{ x.id }}">{{ x.spec }}</a></h3></li>
+       {% endfor %}
+   </ul>
+   <p>Back to <a href="/products/Laptop_to_choose">Laptop</a></p>
+</div>
+
+{% endblock %}

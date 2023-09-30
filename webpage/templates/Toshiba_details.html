@@ -1,0 +1,17 @@
+{% extends 'master.html' %}
+
+{% block title %}
+Toshiba_details
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>details about {{toshiba.spec}}</h2>
+    <p>manufacturer: {{toshiba.manufacturer}}</p>
+    <p>spec: {{toshiba.spec}}</p>
+    <p>price: {{toshiba.price}}</p>
+    <p>processor: {{toshiba.processor}}</p>
+    <p>storage: {{toshiba.storage}}</p>
+</div>
+
+{% endblock %}
